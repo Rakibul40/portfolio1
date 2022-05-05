@@ -114,3 +114,25 @@ button{
     outline:none !important;
     box-shadow:none !important;
 }
+/* Navbar */
+.header_wrapper .navbar{
+    padding:15px 0;
+    -webkit-transition:all .2s linear;
+    -o-transition:all .2s linear;
+    transition:all .2s linear;
+}
+.header_wrapper .navbar-brand img{
+    max-width:120px;
+    height:auto;
+}
+.header_wrapper .navbar-toggler{
+    border:0;
+    color:var(--text-gray);
+    line-height:2;
+}
+.header_wrapper .nav-item{
+    margin:0 10px;
+}
+.header_wrapper .nav-item .nav-link{
+    
+}
